@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style2.css" type="text/css" />
+    <title>web-multimedia</title>
+    <link rel="icon" href="./picture/icon.jpg">
+</head>
+
+<body>
+    <div class="main">
+        <div class="section">
+            <div class="pic1">
+                <img src="picture/picture5.jpeg" alt="picture1" id="image">
+            </div>
+            <audio id="audio" src="./picture/loreen-tattoo.mp3"></audio>
+            <input type="range" min="0" max="100" value="0" class="time">
+            <div id="artist_name">Loreen</div>
+            <div id="song_title">Tatto</div>
+            <div class="buttons">
+                <button class="prev"><img id="pr" src="picture/fast-arrow-left (1).svg"/></button>
+                <button class="play"><img id="pl" src="picture/play (1).svg"/></button>
+                <button class="next"><img id="nex" src="picture/fast-arrow-right (1).svg"/></button>
+            </div>
+        </div>
+        <div class="visual">
+            <script>
+                let visual = document.querySelector(".visual");
+                for(var i = 0 ; i < 32 ; i++){
+                    logo = document.createElement('div');
+                    logo.className = 'logo';
+                    visual.appendChild(logo);
+                }
+            </script>
+        </div>
+    </div>
+    <script src="script2.js"></script>
+</body>
+</html>

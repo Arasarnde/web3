@@ -1,0 +1,118 @@
+body {
+    background-color: #E290BA;
+    margin-left: 0px;
+    margin-top: 0px;
+    margin-right: 0px;
+    width: 100%;
+}
+
+.main {
+    display: grid;
+    margin-left: 37.5%;
+    width: 25%;
+    height: fit-content;
+}
+
+.section {
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    display: grid;
+    background-color: #353535;
+    margin-top: 20px;
+    border-radius: 63px;
+}
+
+.pic1 {
+    width: 75%;
+    margin-top: 50px;
+    margin-left: 12.5%;
+}
+
+#image {
+    width: 100%;
+}
+
+#artist_name {
+    margin-top: 25px;
+    color: rgb(214, 214, 214);
+    text-align: center;
+    font-size: 30px;
+    font-family: 'Inter', sans-serif;
+    letter-spacing: 1px;
+    line-height: 1.2;
+}
+
+#song_title {
+    margin-top: 5px;
+    color: whitesmoke;
+    text-align: center;
+    font-size: 30px;
+    font-weight: bold;
+    font-family: "Inter-Bold", "Inter", "Inter Placeholder", sans-serif;
+    letter-spacing: 1px;
+    line-height: 1.2;
+    margin-bottom: 25px;
+}
+
+.play, .prev, .next {
+    background-color: #353535;
+    font-size: 20px;
+    margin-left: 40px;
+    margin-right: 40px;
+    font-family: 'Inter', sans-serif;
+    border: none;
+}
+
+.buttons {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 30px;
+}
+
+#pr, #pl, #nex {
+    color: aliceblue;
+    width: 60px;
+}
+
+.visual {
+    margin: 0%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    overflow: clip;
+    margin-top: 30px;
+}
+
+.logo {
+    background-color: #353535;
+    min-width: 10px;
+    max-height: 70px;
+} 
+
+.time {
+    -webkit-appearance: none;
+    height: 3px;
+    border-radius: 5px;  
+    background: #E290BA;
+    outline: none;
+    margin-top: 25px;
+    width: 70%;
+    margin-left: 15%;
+}
+
+.time::-webkit-slider-thumb {
+    -webkit-appearance: none;
+    appearance: none;
+    width: 10px;
+    height: 10px;
+    border-radius: 50%; 
+    background: whitesmoke;
+    cursor: pointer;
+}
+
+.time::-moz-range-thumb {
+    width: 10px;
+    height: 10px;
+    border-radius: 50%;
+    background: whitesmoke;
+    cursor: pointer;
+}
